@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024)</title>
+    <link>https://f24.ros.santoslab.org/</link>
+    <description>Recent content on CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://f24.ros.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/bio/</guid>
+      <description>John Hatcliff &amp;ndash; Bio Sketch Bio Sketch - To be Completed</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/lectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/lectures/</guid>
+      <description>Lectures Lecture content utilizes the Software Correctness Online Course Notes&#xA;Course Administration Slides Overview and Background Slang and Logika Overview&#xA;Online course notes - Slang and Logika Overview Video overview of Slang and Logika Foundations of Reasoning about Programs Basics&#xA;Online course notes Examples Conditionals&#xA;Methods&#xA;Loops&#xA;Arrays / Sequences&#xA;Termination&#xA;Software Development Background The Software Development Process&#xA;Slides Concept Summary Resources: FAA Requirements Engineering Management Handbook Software Process Diagrams and Steps (from California Deparment of Transportation) Testing Infrastructure and Terminology Background Unit Testing in Scalatest and JUnit</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/overview/</guid>
+      <description>Overview This course covers basic concepts and applications of ROS2 (Robot Operating System). ROS2 provides a collection of component-oriented abstractions for coding software for robots. This includes aquisition of sensor data, action planning, robot control, and other interactions between robots and their environment. The ROS ecosystem also includes a several powerful design (RVIZ) and simulation (Gazebo) frameworks. Students will be introduced to the concepts above using short programming assignments.&#xA;The course includes a significant project component in which students apply the techniques above to both simulated and physical robots.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/project/</guid>
+      <description>Project This year the course project will involve specifying and verifying the software of two medical devices:&#xA;An &amp;ldquo;Isolette&amp;rdquo; (infant incubator) - the medical goal of the Isolette is to keep a new-born baby at an appropriate temperature for the first hours of its life by placing it in an enclosure in which the air in the enclosure can be monitored and controlled. A Patient-Controlled Analgesic (PCA) Pump - the medical goal of a PCA pump is to provide a hospital patient with pain relief by intravenously infusing opioids at intervals partially controlled by a patient.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/schedule/</guid>
+      <description>Schedule This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday: Course Overview&#xA;Thursday: ROS Basics&#xA;Lecture: Packages and Nodes Week 02: August 26 Tuesday: ROS Basics&#xA;Lecture: Topics, Timeouts, RTQ Thursday: ROS Basics&#xA;Lecture: Services Week 03: Sept 2 Tuesday: ROS Basics</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://f24.ros.santoslab.org/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/tools/</guid>
+      <description>Tools This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;Sireum&#xA;Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)&#xA;Download and installation instructions &amp;ndash; installation based on git sources is recommended Video overview of Slang and Logika </description>
+    </item>
+  </channel>
+</rss>

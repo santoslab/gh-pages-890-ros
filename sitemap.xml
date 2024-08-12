@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://f24.ros.santoslab.org/bio/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/lectures/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/overview/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/project/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/schedule/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/tools/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/categories/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/</loc>
+  </url><url>
+    <loc>https://f24.ros.santoslab.org/tags/</loc>
+  </url>
+</urlset>
