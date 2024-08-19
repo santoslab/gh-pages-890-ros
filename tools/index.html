@@ -5,10 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Tools This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-Sireum
-Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)
-Download and installation instructions &amp;ndash; installation based on git sources is recommended Video overview of Slang and Logika " />
+<meta name="description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
+ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class." />
 <meta name="keywords" content="robotics, middleware, model-based development, formal methods" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -17,7 +15,7 @@ Download and installation instructions &amp;ndash; installation based on git sou
 
     <title>
         
-             :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
+            Tools :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
         
     </title>
 
@@ -43,20 +41,16 @@ Download and installation instructions &amp;ndash; installation based on git sou
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Tools This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-Sireum
-Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)
-Download and installation instructions &ndash; installation based on git sources is recommended Video overview of Slang and Logika ">
+<meta itemprop="name" content="Tools">
+<meta itemprop="description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
+ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.">
 
-<meta itemprop="wordCount" content="77"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="279"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Tools This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
-Sireum
-Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)
-Download and installation instructions &ndash; installation based on git sources is recommended Video overview of Slang and Logika "/>
+<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Tools"/>
+<meta name="twitter:description" content="This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.
+ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class."/>
 
 
 
@@ -114,6 +108,20 @@ Download and installation instructions &ndash; installation based on git sources
     
       <div>
         <li>
+          <a href="https://f24.ros.santoslab.org/schedule/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
+            <span class="responsive-title-long">Schedule</span>
+            <span class="responsive-title-short">schedule</span>
+          </a>
+        </li>
+      </div>
+    
+  
+
+  
+  
+    
+      <div>
+        <li>
           <a href="https://f24.ros.santoslab.org/lectures/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
             <span class="responsive-title-long">Lectures</span>
             <span class="responsive-title-short">lectures</span>
@@ -131,20 +139,6 @@ Download and installation instructions &ndash; installation based on git sources
           <a href="https://f24.ros.santoslab.org/project/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
             <span class="responsive-title-long">Project</span>
             <span class="responsive-title-short">project</span>
-          </a>
-        </li>
-      </div>
-    
-  
-
-  
-  
-    
-      <div>
-        <li>
-          <a href="https://f24.ros.santoslab.org/schedule/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
-            <span class="responsive-title-long">Schedule</span>
-            <span class="responsive-title-short">schedule</span>
           </a>
         </li>
       </div>
@@ -202,21 +196,45 @@ Download and installation instructions &ndash; installation based on git sources
     <main class="post">
 
         <article>
-            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/tools/"></a></h2>
+            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/tools/">Tools</a></h2>
 
             
             
             
 
             <div class="post-content">
-                <h3 id="tools">Tools</h3>
-<p>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.</p>
-<hr>
-<p><a href="http:sireum.org/">Sireum</a></p>
-<p>Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University.   This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)</p>
+                <p>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.</p>
+<h2 id="ros2-humble-distribution">ROS2 Humble Distribution</h2>
+<p>Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running
+on Ubuntu 22.04.   If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation.  The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.</p>
+<p>There are a lot of resources for setting up a virtual machine and installing Ubuntu 22.04, so the instruction below assume that you have already done that.</p>
+<p>Install ROS2 Humble based on the instructions on the <a href="https://docs.ros.org/en/humble/Installation.html">Humble distribution Installation</a> documentation.  There is also a <a href="https://www.youtube.com/watch?v=0aPbWsyENA8&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy">video walkthrough</a> by Edouard Renard on YouTube.</p>
+<p>Here are some additional notes:</p>
 <ul>
-<li><a href="https://sireum.org/getting-started/">Download and installation instructions</a> &ndash; installation based on git sources is recommended</li>
-<li><a href="https://doc.sireum.org/venues/presentations/logika/tccoe22/">Video overview of Slang and Logika</a></li>
+<li>
+<p>Follow the installation instructions through the <strong>Try some examples</strong> (Talker-listener) — this will ensure that your installation is “working”</p>
+</li>
+<li>
+<p>Under Installing ROS 2 Packages, choose the Desktop Install</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ros-humble-desktop
+</span></span></code></pre></div><ul>
+<li>
+<p>Note: in the Renard video above, the <code>Development tools: Compilers and other tools to build ROS packages</code> is not mentioned.  You can go ahead and an install those.   Or.. you can just install as we need them in the exercises/homework.</p>
+</li>
+<li>
+<p>When doing the <strong>Environment setup</strong> steps, you should also add</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>source /opt/ros/humble/setup.bash
+</span></span></code></pre></div><p>to your <code>.bashrc</code> file, so that the ROS2 environment variables, etc. are set up each time you open a new terminal window
+(Adding this to your <code>.bashrc</code> is suggested in the Renard video).</p>
+<h2 id="terminator-terminal-application">Terminator Terminal Application</h2>
+<p>Terminator is a terminal application that is convenient for us because it enables easily tiling of multiple terminal windows.</p>
+<ul>
+<li><a href="https://linuxgenie.net/how-to-install-terminator-on-ubuntu-22-04/">Terminator installation</a></li>
+<li><a href="https://terminator-gtk3.readthedocs.io/en/latest/index.html">Terminator documentation</a></li>
 </ul>
 
             </div>

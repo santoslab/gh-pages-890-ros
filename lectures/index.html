@@ -5,16 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Lectures Lecture content utilizes the Software Correctness Online Course Notes
-Course Administration Slides Overview and Background Slang and Logika Overview
-Online course notes - Slang and Logika Overview Video overview of Slang and Logika Foundations of Reasoning about Programs Basics
-Online course notes Examples Conditionals
-Methods
-Loops
-Arrays / Sequences
-Termination
-Software Development Background The Software Development Process
-Slides Concept Summary Resources: FAA Requirements Engineering Management Handbook Software Process Diagrams and Steps (from California Deparment of Transportation) Testing Infrastructure and Terminology Background Unit Testing in Scalatest and JUnit" />
+<meta name="description" content="Lecture: Course Administration Slides (pdf) Lecture: ROS2 Course Overview, Installation, and Development Environment Setup Slides
+Homework
+Installation XXXXXXXX
+Tutorial Exercise (Renard): Start Your First ROS2 Node (running talker/listener demo nodes, running turtlesim)
+Objectives ROS2 installed Know how to run a node (link: cheat sheet) Know how to launch rqt_graph to visualize the dynamic topology of a system (link: cheat sheet) Tutorial Exercise (Renard): Create and Set Up a ROS2 Workspace" />
 <meta name="keywords" content="robotics, middleware, model-based development, formal methods" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -23,7 +18,7 @@ Slides Concept Summary Resources: FAA Requirements Engineering Management Handbo
 
     <title>
         
-             :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
+            Lectures :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
         
     </title>
 
@@ -49,32 +44,22 @@ Slides Concept Summary Resources: FAA Requirements Engineering Management Handbo
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="">
-<meta itemprop="description" content="Lectures Lecture content utilizes the Software Correctness Online Course Notes
-Course Administration Slides Overview and Background Slang and Logika Overview
-Online course notes - Slang and Logika Overview Video overview of Slang and Logika Foundations of Reasoning about Programs Basics
-Online course notes Examples Conditionals
-Methods
-Loops
-Arrays / Sequences
-Termination
-Software Development Background The Software Development Process
-Slides Concept Summary Resources: FAA Requirements Engineering Management Handbook Software Process Diagrams and Steps (from California Deparment of Transportation) Testing Infrastructure and Terminology Background Unit Testing in Scalatest and JUnit">
+<meta itemprop="name" content="Lectures">
+<meta itemprop="description" content="Lecture: Course Administration Slides (pdf) Lecture: ROS2 Course Overview, Installation, and Development Environment Setup Slides
+Homework
+Installation XXXXXXXX
+Tutorial Exercise (Renard): Start Your First ROS2 Node (running talker/listener demo nodes, running turtlesim)
+Objectives ROS2 installed Know how to run a node (link: cheat sheet) Know how to launch rqt_graph to visualize the dynamic topology of a system (link: cheat sheet) Tutorial Exercise (Renard): Create and Set Up a ROS2 Workspace">
 
-<meta itemprop="wordCount" content="90"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="262"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Lectures Lecture content utilizes the Software Correctness Online Course Notes
-Course Administration Slides Overview and Background Slang and Logika Overview
-Online course notes - Slang and Logika Overview Video overview of Slang and Logika Foundations of Reasoning about Programs Basics
-Online course notes Examples Conditionals
-Methods
-Loops
-Arrays / Sequences
-Termination
-Software Development Background The Software Development Process
-Slides Concept Summary Resources: FAA Requirements Engineering Management Handbook Software Process Diagrams and Steps (from California Deparment of Transportation) Testing Infrastructure and Terminology Background Unit Testing in Scalatest and JUnit"/>
+<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
+<meta name="twitter:description" content="Lecture: Course Administration Slides (pdf) Lecture: ROS2 Course Overview, Installation, and Development Environment Setup Slides
+Homework
+Installation XXXXXXXX
+Tutorial Exercise (Renard): Start Your First ROS2 Node (running talker/listener demo nodes, running turtlesim)
+Objectives ROS2 installed Know how to run a node (link: cheat sheet) Know how to launch rqt_graph to visualize the dynamic topology of a system (link: cheat sheet) Tutorial Exercise (Renard): Create and Set Up a ROS2 Workspace"/>
 
 
 
@@ -132,6 +117,20 @@ Slides Concept Summary Resources: FAA Requirements Engineering Management Handbo
     
       <div>
         <li>
+          <a href="https://f24.ros.santoslab.org/schedule/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
+            <span class="responsive-title-long">Schedule</span>
+            <span class="responsive-title-short">schedule</span>
+          </a>
+        </li>
+      </div>
+    
+  
+
+  
+  
+    
+      <div>
+        <li>
           <a href="https://f24.ros.santoslab.org/lectures/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
             <span class="responsive-title-long">Lectures</span>
             <span class="responsive-title-short">lectures</span>
@@ -149,20 +148,6 @@ Slides Concept Summary Resources: FAA Requirements Engineering Management Handbo
           <a href="https://f24.ros.santoslab.org/project/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
             <span class="responsive-title-long">Project</span>
             <span class="responsive-title-short">project</span>
-          </a>
-        </li>
-      </div>
-    
-  
-
-  
-  
-    
-      <div>
-        <li>
-          <a href="https://f24.ros.santoslab.org/schedule/" onmouseover="menuUnderline(this, true);" onmouseout="menuUnderline(this, false);">
-            <span class="responsive-title-long">Schedule</span>
-            <span class="responsive-title-short">schedule</span>
           </a>
         </li>
       </div>
@@ -220,64 +205,108 @@ Slides Concept Summary Resources: FAA Requirements Engineering Management Handbo
     <main class="post">
 
         <article>
-            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/lectures/"></a></h2>
+            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/lectures/">Lectures</a></h2>
 
             
             
             
 
             <div class="post-content">
-                <h1 id="lectures">Lectures</h1>
-<p>Lecture content utilizes the <a href="https://doc.sireum.org/volumes/logika/courses/software-correctness/">Software Correctness Online Course Notes</a></p>
-<h2 id="course-administration">Course Administration</h2>
+                <h2 id="lecture-course-administration">Lecture: Course Administration</h2>
 <ul>
-<li><a href="https://drive.google.com/file/d/1ykZICJz11OghjPcn79icuVAbCBdPa7sm/view?usp=share_link">Slides</a></li>
+<li>Slides <a href="https://drive.google.com/file/d/1BJmKE1fjUnIOUujg_gIYHBgCGGYfJ8uI/view?usp=sharing">(pdf)</a></li>
 </ul>
-<h2 id="overview-and-background">Overview and Background</h2>
+<h2 id="lecture-ros2-course-overview-installation-and-development-environment-setup">Lecture: ROS2 Course Overview, Installation, and Development Environment Setup</h2>
 <hr>
-<p>Slang and Logika Overview</p>
+<p>Slides</p>
+<p>Homework</p>
 <ul>
-<li>Online course notes - <a href="http://doc.sireum.org/volumes/logika/courses/software-correctness/slang-logika-overview/">Slang and Logika Overview</a></li>
-<li><a href="https://doc.sireum.org/venues/presentations/logika/tccoe22/">Video overview of Slang and Logika</a></li>
-</ul>
-<hr>
-<h2 id="foundations-of-reasoning-about-programs">Foundations of Reasoning about Programs</h2>
-<hr>
-<p>Basics</p>
+<li>
+<p>Installation XXXXXXXX</p>
+</li>
+<li>
+<p>Tutorial Exercise (Renard): <a href="https://www.youtube.com/watch?v=c5DRTN2b2kY&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=2">Start Your First ROS2 Node</a> (running talker/listener demo nodes, running turtlesim)</p>
 <ul>
-<li>Online course notes</li>
-<li>Examples</li>
-</ul>
-<hr>
-<p>Conditionals</p>
-<hr>
-<p>Methods</p>
-<hr>
-<p>Loops</p>
-<hr>
-<p>Arrays / Sequences</p>
-<hr>
-<p>Termination</p>
-<hr>
-<h2 id="software-development-background">Software Development Background</h2>
-<hr>
-<p>The Software Development Process</p>
+<li>Objectives
 <ul>
-<li><a href="http://pub.santoslab.org/vandv/slides/INTRO-Development-Concepts.pdf">Slides</a></li>
-<li><a href="http://pub.santoslab.org/vandv/slides/INTRO-Development-Concepts-Study-Guide.txt">Concept Summary</a></li>
-<li>Resources:
-<ul>
-<li><a href="http://pub.santoslab.org/high-assurance/module-requirements/reading/FAA-DoT-Requirements-AR-08-32.pdf">FAA Requirements Engineering Management Handbook</a></li>
-<li><a href="https://www.fhwa.dot.gov/cadiv/segb/views/process/index.cfm">Software Process Diagrams and Steps (from California Deparment of Transportation)</a></li>
+<li>ROS2 installed</li>
+<li>Know how to run a node (link: cheat sheet)</li>
+<li>Know how to launch <code>rqt_graph</code> to visualize the dynamic topology of a system (link: cheat sheet)</li>
 </ul>
 </li>
 </ul>
+</li>
+<li>
+<p>Tutorial Exercise (Renard): <a href="">Create and Set Up a ROS2 Workspace</a></p>
+<ul>
+<li>
+<p>make sure to add the colcon autocomplete mechanism to your <code>.bashrc</code> file</p>
+</li>
+<li>
+<p>Resources</p>
+<ul>
+<li><a href="https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html">ROS2 Documentation - Creating a Workspace</a></li>
+</ul>
+</li>
+<li>
+<p>Objectives</p>
+<ul>
+<li>Know how to create a ROS2 workspace (link: cheat sheet)</li>
+<li>Understand the basic structure of a ROS2 workspace</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Tutorial Exercise (Renard): <a href="https://www.youtube.com/watch?v=iBGZ8LEvkCY&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=4">Create a ROS2 Python Package</a>  (note: the video also installs visual studio code)</p>
+<ul>
+<li>
+<p>note the correction of the version for setuptools</p>
+</li>
+<li>
+<p>Resources</p>
+<ul>
+<li><a href="https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html#">ROS2 Documentation - Creating a package</a></li>
+</ul>
+</li>
+<li>
+<p>Objectives</p>
+<ul>
+<li>Know how to create a ROS2 Python package (link: cheat sheet)</li>
+<li>Know the basic structure and files in a ROS2 Python package</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="lecture-coding-ros2-nodes">Lecture: Coding ROS2 Nodes</h2>
 <hr>
-<h2 id="testing-infrastructure-and-terminology-background">Testing Infrastructure and Terminology Background</h2>
+<p>Slides</p>
+<p>Resources</p>
+<ul>
+<li>Python node template</li>
+<li>CPP node template</li>
+<li>Python node workflow (link: cheat sheet)</li>
+<li>CPP node workflow (link: cheat sheet)</li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=wfCuPQ_6VbI&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=5">Create a ROS2 Node with Python and OOP</a></li>
+</ul>
+<p>Objectives</p>
+<ul>
+<li>Know how to create a ROS2 Python node from scratch</li>
+<li>Know how to create a ROS2 CPP node from scratch</li>
+<li>Know how to create a timer and an associated call-back</li>
+<li>Know how to use CLI tools <code>ros2 node list</code> and <code>ros2 node info &lt;nodeName&gt;</code> (link: cheat sheet)</li>
+</ul>
+<h2 id="lecture-ros2-topics">Lecture: ROS2 Topics</h2>
 <hr>
-<p>Unit Testing in Scalatest and JUnit</p>
-<hr>
-<p>Property-based Testing</p>
+<p>Slides</p>
+<p>Resources</p>
+<ul>
+<li><a href="https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html">ROS2 Documentation/Tutorial - Writing a Simple Python Publisher and Subscriber</a></li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=QN01AXjoLdQ">TurtleBot4 Unboxing</a></p>
+<p><a href="https://www.youtube.com/playlist?list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT">Articubot Playlist</a></p>
 
             </div>
         </article>

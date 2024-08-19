@@ -5,16 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="John Hatcliff &amp;ndash; Bio Sketch Bio Sketch - To be Completed" />
+<meta name="description" content="Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&amp;rsquo;ll refer to this robot as the &amp;ldquo;Articubot&amp;rdquo;." />
 <meta name="keywords" content="robotics, middleware, model-based development, formal methods" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://f24.ros.santoslab.org/bio/" />
+<link rel="canonical" href="https://f24.ros.santoslab.org/articubot/articubot-overview/" />
 
 
     <title>
         
-             :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
+            Articubot Project :: CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024) 
         
     </title>
 
@@ -40,14 +40,14 @@
     <meta name="msapplication-TileColor" content="">
 
 
-<meta itemprop="name" content="">
-<meta itemprop="description" content="John Hatcliff &ndash; Bio Sketch Bio Sketch - To be Completed">
+<meta itemprop="name" content="Articubot Project">
+<meta itemprop="description" content="Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&rsquo;ll refer to this robot as the &ldquo;Articubot&rdquo;.">
 
-<meta itemprop="wordCount" content="11"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="326"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="John Hatcliff &ndash; Bio Sketch Bio Sketch - To be Completed"/>
+<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Articubot Project"/>
+<meta name="twitter:description" content="Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&rsquo;ll refer to this robot as the &ldquo;Articubot&rdquo;."/>
 
 
 
@@ -193,16 +193,22 @@
     <main class="post">
 
         <article>
-            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/bio/"></a></h2>
+            <h2 class="post-title"><a href="https://f24.ros.santoslab.org/articubot/articubot-overview/">Articubot Project</a></h2>
 
             
             
             
 
             <div class="post-content">
-                <h3 id="john-hatcliff----bio-sketch">John Hatcliff &ndash; Bio Sketch</h3>
-<hr>
-<p><em>Bio Sketch - To be Completed</em></p>
+                <h2 id="overview">Overview</h2>
+<p>The YouTube channel <a href="https://www.youtube.com/playlist?list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT">Articulated Robotics</a> by Josh Newans has a very good series of videos of building your own robot.
+The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin.  The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules.  We&rsquo;ll refer to this robot as the &ldquo;Articubot&rdquo;.</p>
+<h2 id="project-concept">Project Concept</h2>
+<p>The goal of this project would be to implement the robot exactly as described by Articulated Robotics.   The videos are fairly detailed and the complete source code and associated artifacts are available on github.  So the idea would be to try to build the robot on your own following the videos, but you have the &ldquo;solutions&rdquo; to fall back on if you need them.  Note that the solutions are a couple of years old, so they are not guaranteed to work directly out of the box.  Therefore, even on the model solutions, there may be a bit of trouble-shooting to get things to work.  In addition, I believe that I have identified the specific hardware (wheels, motors, controller modules) used in the video series, I can&rsquo;t guarantee they are exactly the same.  Therefore, there might be some effort in adapting the provided solution to slightly different controllers or motors.
+Another challenging aspect of this project includes building the robot power system from scratch.  The project covers many different parts of the ROS ecosystem including designing the physical aspects of the robot in RVIZ, simulating the robot in Gazebo, making the chassis from a plastic bin and attaching wheel motors, writing controllers for the wheels using the ROS Control package, implementing navigation using the ROS NAV2 stack, performing mapping using SLAM, etc.   The scope of the project could be reduced by focusing on the drive components, and perhaps using the lidar but not the camera.</p>
+<h2 id="resources">Resources</h2>
+<p><a href="https://www.youtube.com/playlist?list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT">Articulated Robotics YouTube Playlist</a></p>
+<p><a href="https://github.com/joshnewans">Josh Newans Github Repo</a></p>
 
             </div>
         </article>

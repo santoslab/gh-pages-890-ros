@@ -8,6 +8,55 @@
     <language>en-us</language>
     <atom:link href="https://f24.ros.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Schedule</title>
+      <link>https://f24.ros.santoslab.org/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/schedule/</guid>
+      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday:&#xA;Lecture: Course Administration Lecture: Course Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics&#xA;Lecture: Coding ROS2 Nodes Homework: Assignment Week 02: August 26 Tuesday: ROS Basics</description>
+    </item>
+    <item>
+      <title>Lectures</title>
+      <link>https://f24.ros.santoslab.org/lectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/lectures/</guid>
+      <description>Lecture: Course Administration Slides (pdf) Lecture: ROS2 Course Overview, Installation, and Development Environment Setup Slides&#xA;Homework&#xA;Installation XXXXXXXX&#xA;Tutorial Exercise (Renard): Start Your First ROS2 Node (running talker/listener demo nodes, running turtlesim)&#xA;Objectives ROS2 installed Know how to run a node (link: cheat sheet) Know how to launch rqt_graph to visualize the dynamic topology of a system (link: cheat sheet) Tutorial Exercise (Renard): Create and Set Up a ROS2 Workspace</description>
+    </item>
+    <item>
+      <title>Agriculture Project</title>
+      <link>https://f24.ros.santoslab.org/agproject/agproject-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/agproject/agproject-overview/</guid>
+      <description>Project Concept The specific goals for a project for agricultural robotics have not been identified yet.&#xA;The general goal would be to explore the use of ROS2 technologies for agricultural robotics, or for agriculture sensing, data collection, analysis, etc. For example, this could involve&#xA;using the ROS2 Control package to implement sensor hardware interfacing for an existing ag project, using microRos integrated with ROS2 in an architecture representative of an ag related application.</description>
+    </item>
+    <item>
+      <title>Articubot Project</title>
+      <link>https://f24.ros.santoslab.org/articubot/articubot-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/articubot/articubot-overview/</guid>
+      <description>Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&amp;rsquo;ll refer to this robot as the &amp;ldquo;Articubot&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>https://f24.ros.santoslab.org/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/project/</guid>
+      <description>There are several possibilities for a class project. In most cases, two students will team for a project, though you can do a project individually if you wish. Project topics are listed below.&#xA;Each student is expected to make substantial contributions to the project and to demonstrate mastery of core ROS2 concepts and one or more specializations (e.g., navigation, sensor/control interfacing, etc.) The project deliverables include a final working implementation and an accompany presentation, along with multiple planning presentations and interim reports.</description>
+    </item>
+    <item>
+      <title>TurtleBot Project</title>
+      <link>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/turtlebot/turtlebot-overview/</guid>
+      <description>Overview TurtleBot 4 is the next-generation of the world&amp;rsquo;s most popular open source robotics platform for education and research. The chassis and base mechanical aspects of the robot are based on the iRobot/Roomba robotic household vacuum cleaner. The TurtleBot 4 is obtained by adding an application computer (a Raspberry Pi 4) and a collection of common robot sensors. Specifically, the TurtleBot 4 has a iRobot Create3 mobile base, a powerful Raspberry Pi 4 running ROS 2, 2D LiDAR, OAK-D-PRO 4K RGB autofocus camera, and more.</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://f24.ros.santoslab.org/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://f24.ros.santoslab.org/tools/</guid>
+      <description>This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;ROS2 Humble Distribution Our class exercises, assignments, and projects are standardized on the ROS2 Humble Distribution running on Ubuntu 22.04. If you cannot install Ubuntu 22.04 directly on your machine, you will need to use a virtual machine-based installation. The KSU CS department offers students/faculty licenses for VMWare, so that is what we will support in class.</description>
+    </item>
+    <item>
       <title></title>
       <link>https://f24.ros.santoslab.org/bio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -16,38 +65,10 @@
     </item>
     <item>
       <title></title>
-      <link>https://f24.ros.santoslab.org/lectures/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://f24.ros.santoslab.org/lectures/</guid>
-      <description>Lectures Lecture content utilizes the Software Correctness Online Course Notes&#xA;Course Administration Slides Overview and Background Slang and Logika Overview&#xA;Online course notes - Slang and Logika Overview Video overview of Slang and Logika Foundations of Reasoning about Programs Basics&#xA;Online course notes Examples Conditionals&#xA;Methods&#xA;Loops&#xA;Arrays / Sequences&#xA;Termination&#xA;Software Development Background The Software Development Process&#xA;Slides Concept Summary Resources: FAA Requirements Engineering Management Handbook Software Process Diagrams and Steps (from California Deparment of Transportation) Testing Infrastructure and Terminology Background Unit Testing in Scalatest and JUnit</description>
-    </item>
-    <item>
-      <title></title>
       <link>https://f24.ros.santoslab.org/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://f24.ros.santoslab.org/overview/</guid>
       <description>Overview This course covers basic concepts and applications of ROS2 (Robot Operating System). ROS2 provides a collection of component-oriented abstractions for coding software for robots. This includes aquisition of sensor data, action planning, robot control, and other interactions between robots and their environment. The ROS ecosystem also includes a several powerful design (RVIZ) and simulation (Gazebo) frameworks. Students will be introduced to the concepts above using short programming assignments.&#xA;The course includes a significant project component in which students apply the techniques above to both simulated and physical robots.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://f24.ros.santoslab.org/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://f24.ros.santoslab.org/project/</guid>
-      <description>Project This year the course project will involve specifying and verifying the software of two medical devices:&#xA;An &amp;ldquo;Isolette&amp;rdquo; (infant incubator) - the medical goal of the Isolette is to keep a new-born baby at an appropriate temperature for the first hours of its life by placing it in an enclosure in which the air in the enclosure can be monitored and controlled. A Patient-Controlled Analgesic (PCA) Pump - the medical goal of a PCA pump is to provide a hospital patient with pain relief by intravenously infusing opioids at intervals partially controlled by a patient.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://f24.ros.santoslab.org/schedule/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://f24.ros.santoslab.org/schedule/</guid>
-      <description>Schedule This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday: Course Overview&#xA;Thursday: ROS Basics&#xA;Lecture: Packages and Nodes Week 02: August 26 Tuesday: ROS Basics&#xA;Lecture: Topics, Timeouts, RTQ Thursday: ROS Basics&#xA;Lecture: Services Week 03: Sept 2 Tuesday: ROS Basics</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://f24.ros.santoslab.org/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://f24.ros.santoslab.org/tools/</guid>
-      <description>Tools This course will use the following tools, which students should have installed on laptops that can be brought to class for in-class exercises.&#xA;Sireum&#xA;Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)&#xA;Download and installation instructions &amp;ndash; installation based on git sources is recommended Video overview of Slang and Logika </description>
     </item>
   </channel>
 </rss>
