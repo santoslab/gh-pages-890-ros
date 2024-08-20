@@ -12,14 +12,14 @@
       <link>https://f24.ros.santoslab.org/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://f24.ros.santoslab.org/schedule/</guid>
-      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday:&#xA;Lecture: Course Administration Lecture: Course Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics&#xA;Lecture: Coding ROS2 Nodes Homework: Assignment Week 02: August 26 Tuesday: ROS Basics</description>
+      <description>This page provides a tentative schedule for lecture topics for the course. Refer to the Lectures page for actual content, reading material, exercises, etc. The schedule will evolve as the course progresses.&#xA;Week 01: August 19 Tuesday:&#xA;Lecture: Course Administration Lecture: Course Overview Homework: ROS installation and environment setup Start Your First ROS2 Node Create and Set Up a ROS2 Workspace Create a ROS2 Python Package Thursday: ROS Basics&#xA;Lecture: Coding ROS2 Nodes Homework: Assignment</description>
     </item>
     <item>
       <title>Lectures</title>
       <link>https://f24.ros.santoslab.org/lectures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://f24.ros.santoslab.org/lectures/</guid>
-      <description>Lecture: Course Administration Slides (pdf) Lecture: ROS2 Course Overview, Installation, and Development Environment Setup Slides&#xA;Homework&#xA;Installation XXXXXXXX&#xA;Tutorial Exercise (Renard): Start Your First ROS2 Node (running talker/listener demo nodes, running turtlesim)&#xA;Objectives ROS2 installed Know how to run a node (link: cheat sheet) Know how to launch rqt_graph to visualize the dynamic topology of a system (link: cheat sheet) Tutorial Exercise (Renard): Create and Set Up a ROS2 Workspace</description>
+      <description>Lecture: Course Administration This lecture describes the logistics of the course including what material we will use for learning, pedagogical approach (lecture style, exercises, assignements), grading scale, etc.&#xA;Slides (pdf)&#xA;Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup This lecture provides a survey of primary concepts of ROS2 middleware and support libraries. It also indicates what concepts we will emphasize in our lectures, assignments, and projects.&#xA;Slides (pdf)&#xA;Resources</description>
     </item>
     <item>
       <title>Agriculture Project</title>
