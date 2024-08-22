@@ -51,7 +51,7 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="475"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="624"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
@@ -290,33 +290,46 @@ Steve Macenski, Tully Foote, Brian Gerkey, Chris Lalancette, William Woodall.</l
 </ul>
 </li>
 </ul>
-<h2 id="lecture-coding-ros2-nodes">Lecture: Coding ROS2 Nodes</h2>
+<h2 id="lecture-coding-ros2-nodes-using-ros2-timers-and-topics-computation-graphs-rqt_graph">Lecture: Coding ROS2 Nodes, Using ROS2 Timers and Topics, Computation Graphs (rqt_graph)</h2>
 <hr>
-<p><em>This lecture provides an introduction to coding ROS2 nodes (we will focus on Python &ndash; you will need to study C++ on your own).  We provide templates for node code and use these to discuss the require code elements for a node.  We discuss the most basic aspect of activating application code in a node: timers and associated call-backs functions.  ROS2 tools associated with nodes are discussed including CLI facilities for listing active nodes.</em></p>
-<p><strong>Slides</strong> (forthcoming)</p>
+<p><em>This lecture provides an introduction to coding ROS2 nodes, timers, and topics (we will focus on Python &ndash; you will need to study C++ on your own).<br>
+These are the most basic aspects of ROS2 computation.  We provide templates for node code and use these to discuss the required code elements for a node, timers, topic publishers and subscribers.  We discuss the most basic aspect of activating application code in a node: timers and associated call-backs functions.  ROS2 tools associated with nodes are discussed including CLI facilities for listing active nodes.  Then we use the templates to code a simple publisher and subscriber for a topic.</em></p>
+<p><strong>Slides</strong></p>
+<p>There are no slides from this lecture.  Everything is based off of live coding via templates and workflow cheat sheets listed below.</p>
 <p><strong>Resources</strong></p>
 <ul>
-<li>Python node template</li>
-<li>CPP node template</li>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/templates/python/my_py_node.py">Python node template</a></li>
 <li>Python node workflow <a href="https://docs.google.com/document/d/1otAwxzNd3300Ifbg91nKt9rSZwR3zOIwcrAQUqxaBgM/edit?usp=sharing">(cheat sheet)</a></li>
-<li>CPP node workflow <a href="https://docs.google.com/document/d/1otAwxzNd3300Ifbg91nKt9rSZwR3zOIwcrAQUqxaBgM/edit?usp=sharing">(cheat sheet)</a></li>
 <li>(Renard) <a href="https://www.youtube.com/watch?v=wfCuPQ_6VbI&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=5">Create a ROS2 Node with Python and OOP</a></li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=MwEXX6a-TWw&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=6">What is a ROS2 topic?</a></li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=Yy4OgGwEAj8&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=7">Write a ROS2 publisher with Python</a></li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=od3JwOeyEXc&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=8">Write a ROS2 subscriber with Python</a></li>
 </ul>
 <p><strong>Objectives</strong></p>
 <ul>
 <li>Know how to create a ROS2 Python node from scratch</li>
-<li>Know how to create a ROS2 CPP node from scratch</li>
 <li>Know how to create a timer and an associated call-back</li>
+<li>Understand the basics of ROS2 topic, and know how to create a simple topic publisher and subscriber in Python</li>
 <li>Know how to use CLI tools <code>ros2 node list</code> and <code>ros2 node info &lt;nodeName&gt;</code> <a href="https://docs.google.com/document/d/1otAwxzNd3300Ifbg91nKt9rSZwR3zOIwcrAQUqxaBgM/edit?usp=sharing">(cheat sheet)</a></li>
 </ul>
-<h2 id="lecture-ros2-topics-computation-graphs">Lecture: ROS2 Topics, Computation Graphs</h2>
+<p><strong>Homework</strong></p>
+<ul>
+<li>Optional: (Renard) <a href="https://www.youtube.com/watch?v=DXEnVEQjImo&amp;list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&amp;index=9">Create a Closed Loop System with a Publisher and a Subscriber</a>
+<ul>
+<li>Note: to code the exercises in homework you need to have watched and carried out the exercises in the &ldquo;Write a ROS2 publisher&rdquo; and &ldquo;Write a ROS2 subscriber&rdquo; videos above.</li>
+</ul>
+</li>
+</ul>
+<h2 id="lecture-launch-files">Lecture: Launch Files</h2>
 <hr>
-<p><em>This lecture provides an introduction to ROS2 &ldquo;topics&rdquo; (ROS2 communication channels) including creating publishers and subscribers for topics.
-We will illustrate ROS2 development facilities such as <code>rqt_graph</code> and CLI utilities for visualizing nodes and topics.</em></p>
+<p><em>This lecture provides an overview and examples of how to use ROS2 launch file.  Launch files provide a way to run (launch) a collection of ROS2 nodes (e.g., all the nodes in a system) with one command.</em></p>
 <p><strong>Slides</strong> (forthcoming)</p>
 <p><strong>Resources</strong></p>
 <ul>
-<li><a href="https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html">ROS2 Documentation/Tutorial - Writing a Simple Python Publisher and Subscriber</a></li>
+<li><a href="https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Creating-Launch-Files.html">ROS2 Documentation/Tutorial - Launch Files</a></li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=xJ3WAs8GndA">Create a Launch File with Python</a></li>
+<li>(Renard) <a href="https://www.youtube.com/watch?v=Le1vx1_KUDQ">Create a Launch File with XML</a></li>
+<li>(Wood) <a href="https://www.youtube.com/watch?v=y5z0PxKr9No&amp;t=11s">Using Events in a Launch File to launch nodes in a particular order</a></li>
 </ul>
 
             </div>
