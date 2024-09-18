@@ -51,12 +51,10 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="994"><meta itemprop="image" content="https://f24.ros.santoslab.org"/>
+<meta itemprop="wordCount" content="1169"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://f24.ros.santoslab.org"/>
-
-<meta name="twitter:title" content="Lectures"/>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
 <meta name="twitter:description" content="Lecture: Course Administration This lecture describes the logistics of the course including what material we will use for learning, pedagogical approach (lecture style, exercises, assignements), grading scale, etc.
 Slides (pdf)
 Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup This lecture provides a survey of primary concepts of ROS2 middleware and support libraries. It also indicates what concepts we will emphasize in our lectures, assignments, and projects.
@@ -407,6 +405,35 @@ the approach adopted in our lecture.</li>
 Client</a>
 &ndash; <em>note</em>: similar comment as above.  The threading/callback
 approach is not general enough.</li>
+</ul>
+<h2 id="lecture-modeling-tf-urdf-and-rviz-overview">Lecture: Modeling: TF, URDF, and RVIZ Overview</h2>
+<hr>
+<p><em>Robots include physical components (wheels, bodies, arms, etc.), and
+part of programming a robot is to (1) keep track of where these
+part are (and how they are oriented) relative to each other and to
+their environment and (2) to make them move relative to each other and
+to their environment.   The ROS2 Transform framework (TF2) provides support for
+activities.  This lecture provides an
+overview of TF2, including its purpose, and main use cases.
+It describes the purpose of a unified robotics description format
+(URDF) file which is used to specify physical
+aspects of a robot in terms of basic components, connections between
+components (joints), and possible joint movements.   It illustrates the use of
+the RVIZ framework to visualize the physical definition of a robot and
+its transforms.</em></p>
+<p><strong>Lecture Materials</strong></p>
+<ul>
+<li><a href="https://drive.google.com/file/d/1j5E6dCT2SodesEhf5nmJ7iWW0Q2mf04P/view?usp=sharing">Slides</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-01-Overview/MODELING-01-Overview-script.md">Activity script</a></li>
+<li><a href="https://drive.google.com/file/d/1GaJrTwR8HnMft8mhMMKwFE3X96vLknQA/view?usp=sharing">Lecture video</a></li>
+</ul>
+<p><strong>Resources</strong></p>
+<ul>
+<li><em>Very good</em> video overview of the concept of frames and transforms
+<a href="https://youtu.be/QyvHhY4Y_Y8?si=kpOfWlCLsygt5P16">Articulated Robotics - The ROS Transform System
+(TF)</a></li>
+<li><a href="https://articulatedrobotics.xyz/category/coordinate-transforms-for-robotics">Articulated Robotics &ndash; Deep background on coordinate transformations</a></li>
+<li><a href="https://docs.ros.org/en/humble/Concepts/Intermediate/About-Tf2.html">ROS2 Documentation - TF2 Overview</a></li>
 </ul>
 
             </div>

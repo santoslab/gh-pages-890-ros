@@ -5,15 +5,14 @@
     <link>https://f24.ros.santoslab.org/articubot/</link>
     <description>Recent content in Articubots on CS 890 - Introduction to ROS (Robot Operating System) Homepage (Fall 2024)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://f24.ros.santoslab.org/articubot/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <atom:link href="https://f24.ros.santoslab.org/articubot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articubot Project</title>
       <link>https://f24.ros.santoslab.org/articubot/articubot-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://f24.ros.santoslab.org/articubot/articubot-overview/</guid>
       <description>Overview The YouTube channel Articulated Robotics by Josh Newans has a very good series of videos of building your own robot. The robot is a simple two-rear-wheeled robot with a front caster wheel (using a simple differential drive approach) with a chassis based on a rectangular plastic bin. The robot brain is a Raspberry Pi 4, and it includes lidar and camera modules. We&amp;rsquo;ll refer to this robot as the &amp;ldquo;Articubot&amp;rdquo;.</description>
     </item>
-    
   </channel>
 </rss>
