@@ -51,7 +51,7 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="1318"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="1534"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
@@ -459,6 +459,25 @@ fixed, revolute, continuous, and prismatic joint types), issues regarding positi
 <ul>
 <li><a href="http://wiki.ros.org/urdf/XML/link">ROS Link Documentation</a></li>
 <li><a href="http://wiki.ros.org/urdf/XML/joint">ROS Joint Documentation</a></li>
+</ul>
+<h2 id="lecture-modeling-xacro-basics">Lecture: Modeling: XACRO Basics</h2>
+<hr>
+<p>*xacro is macro framework for XML.  Although it can be used for any type of XML file, it is primarily used in the ROS ecosystem for URDF files.
+xacro can enable better &ldquo;software engineering&rdquo; of your URDF files by introducing named constants (as associated expression evaluation), macros for commonly used URDF elements, and decomposing your URDF content into multiple files (enabling a more modular organization of your URDF source material and easier reuse of URDF definitions across projects).</p>
+<p>This lecture is an in-class exercise that introduces basic aspects of xacro.  We first review how to set up a launch file for (a) loading a URDF into the robot state publisher node and (b) launching accompanying joint state publisher gui and rviz nodes.  This type of setup is often used in the early prototype phase of the physical robot design.  We cover how to migrate the basic URDF file to a xacro file.  Then we review the most common xacro features including named constants (properties), macros for creating parameterized/reusable URDF elements, and decomposing URDF content into multiple xacro files.*</p>
+<p><strong>Lecture Materials</strong></p>
+<ul>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-03-Xacro-Basics/MODELING-03-Xacro-Basics.md">Activity script</a></li>
+<li><a href="https://drive.google.com/file/d/1xfGh84dfb_lvRlpTsgwMHta4_15OrMNs/view?usp=sharing">Lecture video</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/tree/main/lectures/lectures-MODELING-03-Xacro-Basics/modeling_ws">Starting work space</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/tree/main/lectures/lectures-MODELING-03-Xacro-Basics/modeling_ws_completed">Completed work space</a></li>
+</ul>
+<p><strong>Acknowledgement</strong></p>
+<p>This lecture is based on content from Eduard Renard.</p>
+<p><strong>Resources</strong></p>
+<ul>
+<li><a href="https://github.com/ros/xacro/wiki">ROS xacro wiki</a></li>
+<li>(Eduard Renard video)<a href="https://www.youtube.com/watch?v=XH6Fvv7p5n0">ROS2 - Create a Xacro Macro</a></li>
 </ul>
 
             </div>
