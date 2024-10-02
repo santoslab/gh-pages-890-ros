@@ -51,7 +51,7 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="1534"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="1852"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
@@ -451,8 +451,11 @@ fixed, revolute, continuous, and prismatic joint types), issues regarding positi
 <ul>
 <li>(Eduard Renard - video) <a href="https://youtu.be/dZ_CyyEvBE0?si=mESnD67ELondd5dh">Create a URDF with ROS2 (1 HR Crash Course)</a></li>
 </ul>
-<p>The URDF developed in this activity is very similar to the one needed in the Articulated Robotics Articubot project</p>
+<p>For a good written overview (supported by some videos), see the Articulated Robotics URDF/XACRO overview.</p>
 <ul>
+<li><a href="https://articulatedrobotics.xyz/tutorials/ready-for-ros/urdf/">Describing robots with URDF</a>
+The URDF developed in this activity is very similar to the one needed in the Articulated Robotics Articubot project</li>
+<li>(Articulated Robotics) - written oveview of differential drive robots, <a href="https://articulatedrobotics.xyz/tutorials/mobile-robot/concept-design/concept-urdf">URDF Design</a></li>
 <li>(Articulated Robotics) <a href="https://youtu.be/BcjHyhV0kIs?si=62u2g7gC1F4BdrbL">Creating a rough 3D model of our robot with URDF</a></li>
 </ul>
 <p>Documentation for the XML elements of a URDF can be found at the links below.  These are actually from the ROS1 documentation, but URDF format is the same in ROS2 as in ROS1.</p>
@@ -462,8 +465,7 @@ fixed, revolute, continuous, and prismatic joint types), issues regarding positi
 </ul>
 <h2 id="lecture-modeling-xacro-basics">Lecture: Modeling: XACRO Basics</h2>
 <hr>
-<p><em>xacro is macro framework for XML.  Although it can be used for any type of XML file, it is primarily used in the ROS ecosystem for URDF files.
-xacro can enable better &ldquo;software engineering&rdquo; of your URDF files by introducing named constants (as associated expression evaluation), macros for commonly used URDF elements, and decomposing your URDF content into multiple files (enabling a more modular organization of your URDF source material and easier reuse of URDF definitions across projects).</em></p>
+<p><em>xacro is macro framework for XML.  Although it can be used for any type of XML file, it is primarily used in the ROS ecosystem for URDF files.  xacro can enable better &ldquo;software engineering&rdquo; of your URDF files by introducing named constants (as associated expression evaluation), macros for commonly used URDF elements, and decomposing your URDF content into multiple files (enabling a more modular organization of your URDF source material and easier reuse of URDF definitions across projects).</em></p>
 <p><em>This lecture is an in-class exercise that introduces basic aspects of xacro.  We first review how to set up a launch file for (a) loading a URDF into the robot state publisher node and (b) launching accompanying joint state publisher gui and rviz nodes.  This type of setup is often used in the early prototype phase of the physical robot design.  We cover how to migrate the basic URDF file to a xacro file.  Then we review the most common xacro features including named constants (properties), macros for creating parameterized/reusable URDF elements, and decomposing URDF content into multiple xacro files.</em></p>
 <p><strong>Lecture Materials</strong></p>
 <ul>
@@ -478,6 +480,35 @@ xacro can enable better &ldquo;software engineering&rdquo; of your URDF files by
 <ul>
 <li><a href="https://github.com/ros/xacro/wiki">ROS xacro wiki</a></li>
 <li>(Eduard Renard video)<a href="https://www.youtube.com/watch?v=XH6Fvv7p5n0">ROS2 - Create a Xacro Macro</a></li>
+</ul>
+<h2 id="lecture-modeling-gazebo-overview">Lecture: Modeling: Gazebo Overview</h2>
+<hr>
+<p><em>Gazebo is a physics simulation framework that is part of the ROS ecosystem, but independent of ROS.  By &ldquo;physics simulation&rdquo;, we mean that it can simulate physical objects, interactions between objects (collisions, friction), the effect of gravity, etc.   In addition, it has a plug-in architecture that enables you to control your robot in a simulation and even operator standardized sensors on your robot such as cameras and lidar in the context of the simulation.  Finally, you can define various simulated &ldquo;worlds&rdquo; that you can use to evaluate concepts associated with your robot.</em></p>
+<p><em>This lecture gives an overview of the Gazebo GUI, basic functionality, SDF files, and loading models/worlds into Gazebo.</em></p>
+<p><strong>Lecture Materials</strong></p>
+<ul>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-04-Gazebo-Overview/MODELING-04-Gazebo-Overview.md">Activity script</a></li>
+<li><a href="https://drive.google.com/file/d/19OQgPdwNB1kT5O4h1qXjRlzMaXAHfk4l/view?usp=drive_link">Lecture video</a></li>
+</ul>
+<p><strong>Acknowledgement</strong></p>
+<p>This lecture is based on content from the Gazebo Fortress documentation.</p>
+<p><strong>Resources</strong></p>
+<p>These activities are based on the following sources</p>
+<ul>
+<li>Gazebo Fortress tuturial <a href="https://gazebosim.org/docs/fortress/gui/">Understanding the GUI</a></li>
+<li>Gazebo Fortress tutorial <a href="https://gazebosim.org/docs/fortress/sdf_worlds/">SDF Worlds</a></li>
+<li>Gazebo Fortress tutorial <a href="https://gazebosim.org/docs/fortress/building_robot/">Understanding SDF files - Building your own robot</a> going through an SDF file for a differential drive robot similar to the Articubot</li>
+<li>ROS2 documentation for bridging ROS2 topics with Gazebo Fortress - <a href="https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html">Setting up a robot simulation</a></li>
+<li>Summary of differences between SDF and URDF and converting SDF files to URDF <a href="https://www.learnros2.com/ros/tech-blog/difference-between-urdf-and-sdf-and-how-to-convert">Difference between URDF and SDF and how to convert</a></li>
+</ul>
+<h2 id="lecture-modeling-preparing-urdf-specifications-for-gazebo">Lecture: Modeling: Preparing URDF Specifications for Gazebo</h2>
+<hr>
+<p><em>This lecture does a walk-through of artifacts that we need to use basic features of Gazebo.  This includes add collision and inertia properties to your URDF file, creating a launch file for Gazebo, etc.</em></p>
+<p><strong>Resources</strong></p>
+<ul>
+<li>Articulated Robotics written overview of Gazebo - <a href="https://articulatedrobotics.xyz/tutorials/ready-for-ros/gazebo">Simulating with Gazebo</a></li>
+<li>Articulated Robotics written overview of simulating the Articubot in Gazebo - <a href="https://articulatedrobotics.xyz/tutorials/mobile-robot/concept-design/concept-gazebo">Simulating in Gazebo</a></li>
+<li>ROS Documentation - <a href="https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Adding-Physical-and-Collision-Properties-to-a-URDF-Model.html">Adding Physical and Collision Properties</a></li>
 </ul>
 
             </div>
