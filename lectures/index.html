@@ -51,7 +51,7 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="1852"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="1912"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
@@ -503,12 +503,23 @@ The URDF developed in this activity is very similar to the one needed in the Art
 </ul>
 <h2 id="lecture-modeling-preparing-urdf-specifications-for-gazebo">Lecture: Modeling: Preparing URDF Specifications for Gazebo</h2>
 <hr>
-<p><em>This lecture does a walk-through of artifacts that we need to use basic features of Gazebo.  This includes add collision and inertia properties to your URDF file, creating a launch file for Gazebo, etc.</em></p>
-<p><strong>Resources</strong></p>
+<p>*This lecture does a walk-through of artifacts that we need to use basic features of Gazebo.  This includes add collision and inertia properties to your URDF file.  *</p>
+<p><strong>Lecture Materials</strong></p>
 <ul>
-<li>Articulated Robotics written overview of Gazebo - <a href="https://articulatedrobotics.xyz/tutorials/ready-for-ros/gazebo">Simulating with Gazebo</a></li>
-<li>Articulated Robotics written overview of simulating the Articubot in Gazebo - <a href="https://articulatedrobotics.xyz/tutorials/mobile-robot/concept-design/concept-gazebo">Simulating in Gazebo</a></li>
-<li>ROS Documentation - <a href="https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/Adding-Physical-and-Collision-Properties-to-a-URDF-Model.html">Adding Physical and Collision Properties</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-05-Gazebo-URDF/MODELING-05-Gazebo-URDF.md">Activity script</a></li>
+</ul>
+<p><strong>Resources</strong></p>
+<p>For inertia, collision information&hellip;</p>
+<ul>
+<li>Articulated Robotics written tutorial &ndash; <a href="https://articulatedrobotics.xyz/tutorials/ready-for-ros/urdf/">Describing robots with URDF</a> &ndash; among other things, describes general concepts associated with inertial, mass, and collision properties.</li>
+<li>Articulated Robotics written tutorial &ndash; <a href="https://articulatedrobotics.xyz/tutorials/mobile-robot/concept-design/concept-urdf/">URDF Design</a> &ndash; builds on the general tutorial above to describe how to specify inertia and collision properties for the Articubot.</li>
+<li>Nav2 written tutorial &ndash; <a href="https://docs.nav2.org/setup_guides/urdf/setup_urdf.html">Setting Up The URDF</a></li>
+</ul>
+<p>For integrating ROS2/URDF with Gazebo Fortress&hellip;</p>
+<p>These activities are based on the following sources</p>
+<ul>
+<li><a href="https://gazebosim.org/docs/fortress/spawn_urdf/">Spawning a URDF model</a></li>
+<li>ROS2 documentation for bridging ROS2 topics with Gazebo Fortress - <a href="https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html">Setting up a robot simulation</a></li>
 </ul>
 
             </div>
