@@ -51,7 +51,7 @@ Lecture: ROS2 Concept Overview, Installation, and Development Environment Setup 
 Slides (pdf)
 Resources">
 
-<meta itemprop="wordCount" content="1912"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
+<meta itemprop="wordCount" content="2268"><meta itemprop="image" content="https://f24.ros.santoslab.org/" />
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://f24.ros.santoslab.org/" /><meta name="twitter:title" content="Lectures"/>
@@ -503,7 +503,7 @@ The URDF developed in this activity is very similar to the one needed in the Art
 </ul>
 <h2 id="lecture-modeling-preparing-urdf-specifications-for-gazebo">Lecture: Modeling: Preparing URDF Specifications for Gazebo</h2>
 <hr>
-<p>*This lecture does a walk-through of artifacts that we need to use basic features of Gazebo.  This includes add collision and inertia properties to your URDF file.  *</p>
+<p><em>This lecture does a walk-through of artifacts that we need to use basic features of Gazebo.  This includes add collision and inertia properties to your URDF file.</em></p>
 <p><strong>Lecture Materials</strong></p>
 <ul>
 <li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-05-Gazebo-URDF/MODELING-05-Gazebo-URDF.md">Activity script</a></li>
@@ -520,6 +520,39 @@ The URDF developed in this activity is very similar to the one needed in the Art
 <ul>
 <li><a href="https://gazebosim.org/docs/fortress/spawn_urdf/">Spawning a URDF model</a></li>
 <li>ROS2 documentation for bridging ROS2 topics with Gazebo Fortress - <a href="https://docs.ros.org/en/humble/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html">Setting up a robot simulation</a></li>
+</ul>
+<h2 id="lecture-modeling-gazebo--ros-integration">Lecture: Modeling: Gazebo / ROS Integration</h2>
+<hr>
+<p><em>A primary aspect of robotics development workflow is integrating portions of a robot&rsquo;s software with simulation environments in Gazebo that are designed to test/assess the robot&rsquo;s features and capabilities.   Ideally, the development infrastructure is set up so that you can easily switch between simulation and actual implementation.   This will involve designing launch files to bring up both ROS aspects and Gazebo aspects.</em></p>
+<p><em>Unfortunately, ROS and Gazebo aren&rsquo;t directly compatible &ndash; for example, they use different topic names, middleware implementations, etc.  ROS2 distributions including libraries for bridging topic-based communication between ROS and Gazebo.  This lecture covers basic aspects of these libraries and the bridging concept.</em></p>
+<p><strong>Lecture Materials</strong></p>
+<ul>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-06-Gazebo-ROS-Integration/MODELING-06-Gazebo-ROS-Integration.md">Activity script</a></li>
+</ul>
+<p><strong>Resources</strong></p>
+<p>The <code>ros_gz*</code> packages provide ROS-side nodes and utilities that wrap Gazebo functions and that bridge between ROS and Gazebo.</p>
+<ul>
+<li><a href="https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos">Examples/demos</a> that illustrate the <code>ros_gz</code> packages.  Some of the most applicable for building on our lecture content are..
+<ul>
+<li><a href="https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos#robot-description-publisher">Robot Description Publisher</a> - Spawns a URDF-based robot description into a Gazebo world, and from Gazebo publish a <code>robot_description</code> that flows into RVIZ for a companion visualization.</li>
+<li><a href="https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim_demos#joint-states-publisher">Joint State Publisher</a></li>
+</ul>
+</li>
+</ul>
+<p>All of these demos are already installed when you have <code>ros_gz*</code> installed, so you can just run the launch commands provided in the Readme to launch them.</p>
+<ul>
+<li><a href="https://gazebosim.org/docs/fortress/ros_gz_project_template_guide/">Project template</a> for integrated ROS / Gazebo development</li>
+</ul>
+<h2 id="lecture-modeling-gazebo--camera-as-illustration-of-sensor">Lecture: Modeling: Gazebo / Camera as Illustration of Sensor</h2>
+<hr>
+<p><em>Realistic simulation of a robot in Gazebo will often rely on the robot sensing aspects of its environment, e.g., to determine how to navigate or otherwise achieve some goal.   Gazebo has a basic organizational framework for incorporating different types of sensors.
+For example, an SDF/URDF file with Gazebo configuration information includes XML blocks for utilizing sensor plug-ins.</em></p>
+<p><em>In this lecture, we look at how to add a sensor component (a camera) to the diff drive robot from the previous lecture and to simulate the camera&rsquo;s acquisition of scene information from the Gazebo world using a Gazebo sensor plug-in.  We will also see how to communicate information from the simulated camera to the robot implementation using the Gazebo / ROS2 bridging infrastructure.</em></p>
+<p><strong>Lecture Materials</strong></p>
+<ul>
+<li><a href="https://github.com/santoslab/ros-course-materials/blob/main/lectures/lectures-MODELING-07-Gazebo-ROS-Integration-Camera/MODELING-07-Gazebo-ROS-Integration-Camera.md">Activity script</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/tree/main/lectures/lectures-MODELING-07-Gazebo-ROS-Integration-Camera/modeling_gazebo_ws">Starting work space</a></li>
+<li><a href="https://github.com/santoslab/ros-course-materials/tree/main/lectures/lectures-MODELING-07-Gazebo-ROS-Integration-Camera/modeling_gazebo_ws_completed">Completed work space</a></li>
 </ul>
 
             </div>
